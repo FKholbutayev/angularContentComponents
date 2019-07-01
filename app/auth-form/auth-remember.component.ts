@@ -12,7 +12,7 @@ import { EventEmitter } from '@angular/common/src/facade/async';
     ` 
 })
 
-export class AuthRemember {
+export class AuthRememberComponent {
 
 @Output()
 checked:EventEmitter<boolean> = new EventEmitter(); 

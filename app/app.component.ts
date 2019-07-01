@@ -35,6 +35,7 @@ export class AppComponent {
   }
 
   rememberUser(remember:boolean) {
+    console.log("remember user", remember)
     this.rememberMe = remember
   }
 
